@@ -1,5 +1,5 @@
 # Retro Mobile Phones
-# Introduction
+## Introduction
 Before the advent of smartphones, mobile telephones in English-speaking countries used keypads with buttons similar to below:
 
 <p align="center">
