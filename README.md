@@ -21,10 +21,10 @@ Special keys include '\*' which cycles through the possible matches for the curr
 the match for the word and adds a space and 'C' which removes the last entered character (or entire word if the word has been
 'accepted'). This program creates a GUI which implements the T9 algorithm with a predictive feature. 
 
-## Engineering Philosophies/Patterns Implemented
+## Engineering Principles/Patterns Implemented
 - **Model-View Seperation:** Features such as predictive text, typing and deleting characters are contained in Model classes such as *DictionaryModel* and 
-*MapDictionary*, while the GUI is built in a seperate View class. This Model-View seperation provides a functionality that is
-totally independent of the user interface
+*MapDictionary*, while the GUI is built in a seperate View class. This supports separate development of the model and user interface layers, and allows easy
+porting of the model layer to another user interface.
 
 - **The Observer Pattern:** The view is set to be an observer which is notified by any state changes in the model. This pattern is demostrated in the program where 
 two 'views' are created; when a change happens to one view, the other is updated accordingly.  
