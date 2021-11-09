@@ -2,5 +2,5 @@
 
 Before the advent of smartphones, mobile phones used keypads with buttons similar to below.
 
-![](/images/Keypad.jpg | width=65)
+<img src="/images/keypad" width="48">
 
