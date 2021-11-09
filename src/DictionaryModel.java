@@ -119,12 +119,16 @@ public class DictionaryModel extends Observable {
 	 * the word to the list of words in the current message.
 	 */
 	public void acceptWord() {
-		currentMessage.add(currentWord);
-		currentWord = new String();
-		currentSig = new String();
-		i = currentMatches.iterator();
-		setChanged();
-		notifyObservers();
+		if(currentMessage.isEmpty()){
+			currentMessage.add("");
+		}else {
+			currentMessage.add(currentWord);
+			currentWord = new String();
+			currentSig = new String();
+			i = currentMatches.iterator();
+			setChanged();
+			notifyObservers();
+		}
 
 	}
 	
