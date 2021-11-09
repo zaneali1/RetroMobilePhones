@@ -26,7 +26,8 @@ the match for the word and adds a space and 'C' which removes the last entered c
 porting of the model layer to another user interface framework.
 
 - **The Observer Pattern:** The view is set to be an observer which is notified by any state changes in the model. This pattern is demostrated in the program where 
-two 'views' are created; when a change happens to one view, the other is updated accordingly.  
+two 'views' are created; when a change happens to one view, the other is updated accordingly. (NB: Since this project was completed the Observer class in Java has
+deprecated).
 
 ## Scope for Improvement
 - Additional graphical features such as a drop-down menu with the list of possible matches for each word.
