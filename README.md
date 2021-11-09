@@ -10,7 +10,6 @@ The keys are used for *both* calling numbers and texting messages; each key from
 can be used to input text. As keys are progressively input, a  predictive entry feature is used to display the closest match for the word.
 This predictive text feature is known as the T9 (Text on 9 Keys) algorithm. 
 
-Example:
 | Input | Example Matches |
 | --- | --- |
 | 463 | inf, god |
