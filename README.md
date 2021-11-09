@@ -17,11 +17,9 @@ Example:
 | 4663 | good, gone, home, goof, hoof |
   
 
-Special keys include '\*' which cycles through the possible matches for the current word, the'0' character which accepts 
+Special keys include '\*' which cycles through the possible matches for the current word, '0' which accepts 
 the match for the word and adds a space and 'C' which removes the last entered character (or entire word if the word has been
-'accepted').
-
-The program creates a GUI which implements the T9 algorithm with a predictive feature. 
+'accepted'). This program creates a GUI which implements the T9 algorithm with a predictive feature. 
 
 ## Engineering Philosophies/Patterns Implemented
 - **Model-View Seperation:** Features such as predictive text, typing and deleting characters are contained in Model classes such as *DictionaryModel* and 
