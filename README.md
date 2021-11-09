@@ -11,12 +11,11 @@ can be used to input text. As keys are progressively input, a  predictive entry 
 This predictive text feature is known as the T9 (Text on 9 Keys) algorithm. 
 
 Example:
-<p align="center">
 | Input | Example Matches |
 | --- | --- |
 | 463 | inf, god |
 | 4663 | good, gone, home, goof, hoof |
-</p>
+  
 Special keys include '\*' which cycles through the possible matches for the current word, the'0' character which accepts 
 the match for the word and adds a space and 'C' which removes the last entered character (or entire word if the word has been
 'accepted').
