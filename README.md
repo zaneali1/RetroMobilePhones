@@ -22,8 +22,9 @@ the match for the word and adds a space and 'C' which removes the last entered c
 
 ## Engineering Principles Implemented
 - **Model-View Seperation:** Features such as predictive text and character deletion are contained in Model classes such as *DictionaryModel* and 
-*MapDictionary*, while the GUI is built in a seperate View class. This supports separate development of the model and user interface layers and allows easy
-porting of the model layer to another user interface framework.
+*MapDictionary*, while the GUI is built in a seperate *View* class. This supports separate development of the model and user interface layers and allows easy
+porting of the model layer to another user interface framework. As an extension to the project, the interface can be changed to an image of a phone keypad 
+which is possible from the Model-View seperation. 
 
 - **The Observer Pattern:** The view is set to be an observer which is notified by any state changes in the model. This pattern is demostrated in the program where 
 two 'views' are created; when a change happens to one view, the other is updated accordingly. (NB: Since this project was completed the Observer class in Java has
