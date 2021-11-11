@@ -30,7 +30,7 @@ which is possible from the Model-View seperation.
 two 'views' are created; when a change happens to one view, the other is updated accordingly. (NB: Since this project was completed the Observer class in Java has
 deprecated).
 
-## Scope for Improvement
+## Extension Activities
 - Additional graphical features such as a drop-down menu with the list of possible matches for each word.
 - An option to take numerical inputs directly from the keyboard (instead of clicking them on screen). 
 - An option to add words to the dictionary (i.e. a dynamic dictionary). 
